@@ -1,16 +1,14 @@
 # bolde_bhai
 
-A new Flutter project.
+- A voice recorder app that supports android and ios
+- Works by storing voice recordings to temporary storage
+- Plays and records using the audio_waveforms packages from pub.dev
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## TODO
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Display only .aac files from temporary storage 
+- Use the record package from pub.dev to listen to amplitude of recorded sound and plot waveforms on web and windows
+- Don't save to file storage if the recordings are empty
+- The waveform doesn't map to the sound perfectly so the duration of the wave animation will have to be adjusted
